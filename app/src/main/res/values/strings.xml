@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">中邮音乐</string>
+    <string name="user_name">用户名</string>
+    <string name="register">立即注册</string>
+</resources>

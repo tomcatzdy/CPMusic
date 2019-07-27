@@ -1,5 +1,6 @@
 package com.chinapost.imoocmusic.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.chinapost.imoocmusic.R;
+import com.chinapost.imoocmusic.view.InputView;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -58,6 +60,14 @@ public class BaseActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 onBackPressed();
+            }
+        });
+
+        mIvMe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BaseActivity.this,MeActivity.class);
+                startActivity(intent);
             }
         });
 

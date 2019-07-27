@@ -45,11 +45,11 @@ public class LoginActivity extends BaseActivity {
      * @param view
      */
     public void login(View view) {
-        String phone = inputPhone.getInputStr();
+       /* String phone = inputPhone.getInputStr();
         String password = inputPassword.getInputStr();
         if (!UserUtils.validateUser(this,phone,password)){
             return;
-        }
+        }*/
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

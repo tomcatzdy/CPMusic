@@ -7,5 +7,6 @@
     <dimen name="inputViewHeight">44sp</dimen>
     <dimen name="infoSize">14sp</dimen>
     <dimen name="btnHeight">44dp</dimen>
+    <dimen name="itemHeight">44dp</dimen>
     <dimen name="radius">5dp</dimen>
 </resources>

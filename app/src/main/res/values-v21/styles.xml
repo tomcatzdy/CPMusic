@@ -6,6 +6,7 @@
         <item name="colorPrimaryDark">@color/mainColor</item>
         <item name="android:statusBarColor">@color/mainColor</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
     </style>
 
 </resources>

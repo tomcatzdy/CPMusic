@@ -17,6 +17,7 @@
         android:src="@mipmap/logo" />
 
     <com.chinapost.imoocmusic.view.InputView
+        android:id="@+id/input_phone"
         android:layout_width="match_parent"
         android:layout_height="@dimen/inputViewHeight"
         android:layout_marginTop="@dimen/marginSize"
@@ -27,9 +28,9 @@
     <View style="@style/line" />
 
     <com.chinapost.imoocmusic.view.InputView
+        android:id="@+id/input_password"
         android:layout_width="match_parent"
         android:layout_height="@dimen/inputViewHeight"
-        android:layout_marginTop="@dimen/marginSize"
         app:input_hint="密码"
         app:input_icon="@mipmap/password"
         app:is_password="true" />
@@ -48,9 +49,10 @@
 
 
     <Button
+        android:onClick="login"
         style="@style/commitBtn"
         android:layout_marginTop="@dimen/marginSize"
-        android:text="登录" />
+        android:text="登  录" />
 
 
 </LinearLayout>

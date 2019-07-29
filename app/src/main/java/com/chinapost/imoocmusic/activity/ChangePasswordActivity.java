@@ -2,12 +2,11 @@ package com.chinapost.imoocmusic.activity;
 
 import android.os.Bundle;
 import android.view.View;
-
-import com.blankj.utilcode.util.ToastUtils;
 import com.chinapost.imoocmusic.R;
+import com.chinapost.imoocmusic.utils.ToastCustom;
 import com.chinapost.imoocmusic.view.InputView;
 
-public class ChagePasswordActivity extends BaseActivity {
+public class ChangePasswordActivity extends BaseActivity {
 
 
     private InputView inputOldPassword;
@@ -32,6 +31,6 @@ public class ChagePasswordActivity extends BaseActivity {
      * @param view
      */
     public void confirmChangePassword(View view){
-        ToastUtils.showShort("修改密码");
+        ToastCustom.showShort(this,"确认修改密码");
     }
 }

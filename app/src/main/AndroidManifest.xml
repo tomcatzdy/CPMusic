@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.ChagePasswordActivity"></activity>
+        <activity android:name=".activity.ChangePasswordActivity"></activity>
         <activity android:name=".activity.MeActivity" />
         <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.LoginActivity" />

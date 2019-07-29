@@ -25,7 +25,7 @@ public class MeActivity extends BaseActivity {
      * @param view
      */
     public void changePassword(View view) {
-        Intent intent = new Intent(this,ChagePasswordActivity.class);
+        Intent intent = new Intent(this, ChangePasswordActivity.class);
         startActivity(intent);
     }
 

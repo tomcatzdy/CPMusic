@@ -9,4 +9,6 @@
     <dimen name="btnHeight">44dp</dimen>
     <dimen name="itemHeight">44dp</dimen>
     <dimen name="radius">5dp</dimen>
+    <dimen name="tabWidth">4dp</dimen>
+    <dimen name="playNumImgSize">18dp</dimen>
 </resources>

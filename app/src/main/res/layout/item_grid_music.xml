@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <com.chinapost.imoocmusic.view.WEqualsHView
+            android:scaleType="fitXY"
+            android:src="@mipmap/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/tabWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:src="@mipmap/play_num"
+                android:layout_width="@dimen/playNumImgSize"
+                android:layout_height="@dimen/playNumImgSize" />
+
+            <TextView
+                android:text="10.00万"
+                android:textSize="@dimen/titleSize"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/tabWidth"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        
+    </FrameLayout>
+
+    <TextView
+        android:text="歌单名称"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        android:padding="@dimen/tabWidth"
+        android:textColor="@color/titleColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
